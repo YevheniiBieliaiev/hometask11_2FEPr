@@ -111,7 +111,7 @@ createTable(numberCells);
 function diagonalColor(number) {//change of bkg color reverse diagonal
   let table = document.querySelector("table");
   for (let j = number - 1; j >= 0; j--) {
-    table.rows[j].cells[number - 1 - j].style.background = "red";
+    table.rows[j].cells[number - 1 - j].style.background = "blue";
   }
 }
 diagonalColor(numberCells);
