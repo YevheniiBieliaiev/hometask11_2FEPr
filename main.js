@@ -118,7 +118,7 @@ diagonalColor(numberCells);
 
 
 function setTable() {  //styles of cells
-  let setTrTd = document.querySelectorAll("tr, td");
+  let setTrTd = document.querySelectorAll("th, td");
   for (let key of setTrTd) {
     key.style.padding = "5px";
     key.style.border = "1px solid black";
